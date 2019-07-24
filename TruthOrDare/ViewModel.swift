@@ -10,13 +10,14 @@ import Foundation
 
 class ViewModel {
     
-    //Truths
+    ///Truths
     private let truths = [
         "What are you most self-conscious about?",
         "What would you do if you were the sex for a month?",
         "What is the most expensive thing you have stolen?",
         "What is the most childish thing you still do?",
-        "Have you ever let someone take the blame for something you did?"
+        "Have you ever let someone take the blame for something you did?",
+        "What is your deepest darkest fear?"
     ]
     
     //Dare
@@ -25,7 +26,8 @@ class ViewModel {
         "Dance with no music for 1 minute.",
         "Try to drink a glass water while standing on your hands.",
         "Let the group pose you in an embarrassing position and take a picture.",
-        "Curse like sailor for 20 seconds straight."
+        "Curse like sailor for 20 seconds straight.",
+        "Serenade the person on your right."
     ]
     
     var totalTruths: Int { return truths.count }
